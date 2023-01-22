@@ -3,7 +3,7 @@ Description=Track data, proxy source, and serve historical data. Personal use is
 After=network.target
 
 [Service]
-ExecStart=/home/pi/data_tracker/start.sh
+ExecStart=/var/www/data_tracker/start.sh
 Restart=always
 User=pi
 Group=www-data
