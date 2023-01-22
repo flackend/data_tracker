@@ -1,0 +1,11 @@
+[Unit]
+Description=Track Boiler NodeMCU data and serve tracked results
+After=network.target
+
+[Service]
+ExecStart=/home/pi/boiler-data/start.sh
+Restart=always
+User=pi
+Group=pi
+Environment=PATH=/usr/bin:/usr/local/bin
+WorkingDirectory==/home/pi/boiler-data/
