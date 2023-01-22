@@ -18,4 +18,8 @@ ln -s /home/pi/data_tracker/data_tracker.service /etc/systemd/system/
 
 Setup MySQL database and user.
 
-Copy **.env.example** to a new **.env**
+Copy **.env.example** to a new **.env**.
+
+Install NPM dependencies.
+
+Make sure **start.sh** has execute permissions.
