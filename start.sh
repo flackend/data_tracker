@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/node script.js
+/usr/bin/node /var/www/data_tracker/script.js
