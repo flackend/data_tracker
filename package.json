@@ -1,11 +1,11 @@
 {
-  "name": "boiler_data",
-  "version": "1.0.0",
-  "description": "",
+  "name": "data_tracker",
+  "version": "0.0.1",
+  "description": "Track data, proxy source, and serve historical data. Personal use is to track NodeMCU data.",
   "main": "script.js",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "Jared Flack <github.com/flackend>",
   "license": "",
   "dependencies": {
     "dotenv": "^16.0.3",
