@@ -88,7 +88,10 @@ setInterval(async () => {
 }, 5 * 60 * 1000);
 
 const requestListener = async function (req, res) {
-    res.writeHead(200);
+    res.writeHead(200, {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+    });
 
     const db = await dbConnect();
     const value = await getLastDataPoint(db);
