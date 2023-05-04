@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use('/api/temp', require('./controllers/temp'));
+app.use('/api/chores', require('./controllers/chores'));
 
 app.listen(3110, () => {
   console.log('API listening on port http://localhost:3110');
